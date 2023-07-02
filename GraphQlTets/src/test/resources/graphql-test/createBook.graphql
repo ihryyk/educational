@@ -1,0 +1,7 @@
+mutation createBook{
+    createBook(title: "title", author: "author"){
+        id
+        title
+        author
+    }
+}
